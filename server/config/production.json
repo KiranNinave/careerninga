@@ -1,0 +1,5 @@
+{
+  "db": {
+    "connection-string": "mongodb+srv://kiran:r1BK5YDsDDlAWLJV@cluster0-wvkkd.mongodb.net/test?retryWrites=true&w=majority"
+  }
+}
