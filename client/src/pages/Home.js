@@ -8,6 +8,7 @@ import { getBattelsApis } from "../apis/battlesApis";
 
 // componets
 import ListItem from "../components/ListItem";
+import Filter from "../components/Filter";
 
 class Home extends React.Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Filter />
         <Row style={{ justifyContent: "center" }}>
           {this.state.data.map((battle, index) => {
             return (
